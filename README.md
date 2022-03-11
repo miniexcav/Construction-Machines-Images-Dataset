@@ -7,7 +7,7 @@ The main purpose of this repository is to construct an open source images datase
 ### In case you would love to conribute to this dataset, please read the following: 
 
 ## Classes 
-classes are all different kind of object that someon like to detect. In our case, as we are dealing with construction enviroments, the classes would be any object that may exists in a construction working site. A list of some commonly related classes is as follows: 
+classes are all different kind of objects that someon like to detect. In our case, as we are dealing with construction enviroments, the classes would be any object that may exists in a construction working site. A list of some commonly related classes is as follows: 
 1-excavators
 2-trucks
 3-bulldozers 
