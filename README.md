@@ -19,13 +19,23 @@ classes are all different kind of objects that someon like to detect. In our cas
 9-compactors
 10-mobile cranes
 11-tower cranes
-12-workers
+12-workers , etc.
 
 ## Data collection 
-The data can be collected in many ways: The hardest and the best way is to collect them manully by taking photos of different construction equipments from a constrcution working site, this approach might be a bit difficult for many people. The second approach is to download images from the web either manull (one-by-one) of by using some web-mining techniques which are so popular online. The third approach is to capture photos from construction videos avialable online or taken by you previously. There might be approaches that dont come into my mind, feel free to use the one 
+The data can be collected in many ways: The hardest and the best way is to collect them manully by taking photos of different construction equipments from a constrcution working site, this approach might be a bit difficult for many people. The second approach is to download images from the web either manull (one-by-one) of by using some web-mining techniques which are so popular online. The third approach is to capture photos from construction videos avialable online or taken by you previously. There might be approaches that dont come into my mind, feel free to use the one suits you. 
+
+To ensure that the images collected are applicabe for model training, please pay attention to the following requirments: 
+1-each images should at least contain one object class in it. 
+2-the images should be of high resolution
+3-the images must cover the whole outer view of the object
+4-avoid images with small objects or those of far distance
+5-avoid irregular images such as images that are taken in a dark light conditions or manipulated images
+6-the images of the same object class should vary to cover a wide range of object positon , background , angles etc. 
+
+Note: bad quality images have may cause negetive imapct on the trained model leading to bad accuracy in the predictions
 
 ## Data labeling 
-
+After having the images prepared and filtered to meet the requirments，the images to be labeled so that when the dataset is fed into the algorithm for training the algorithm know what is in the images and starts leaning. There are many labeling tools avaiable online, some of them are open source while some other are commercial. A good exmaple of free open source labeling tools is labelImg tool where you can find it github repo [here](https://github.com/tzutalin/labelImg). Depending on what algorithm you intend to use to train you model, the label and annoutation format might differ. In our case we use YOLOv4, which require the labels to be in .txt files having the same name of the related images. If you use labelImg for labeling and bounding boxes annoutation, you can choose the format of the label file to be in YOLO format. One other thing to mension is that, make sure that you place the classes in a numbering order that does not change to avoid confusion when you set the configration for your YOLO algorithm. 
 
 ## Disclaimer 
 Disclaimer: 
