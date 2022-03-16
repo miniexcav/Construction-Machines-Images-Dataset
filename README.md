@@ -8,7 +8,7 @@ Down below we will list some of the most important calsses that we can start wit
 ### In case you would love to conribute to this dataset, please read the following: 
 contribution to this dataset can be by upploading dataset of any of the object classes listed below. The data can be raw or prepocessed. In other words, you can upload raw images with no annotation fils, also you are encourged to uplaod annotated images. In what follows, There are some tips for collecting and labeling the data.  
 ## Classes 
-classes are all different kind of objects that someon like to detect. In our case, as we are dealing with construction enviroments, the classes would be any object that may exists in a construction working site. A list of some commonly related classes is as follows: 
+classes are all different kind of objects that someon would like to detect. In our case, as we are dealing with construction enviroments, the classes would be any object that may exists in a construction site. A list of some commonly related classes is as follows: 
 1-excavators
 2-trucks
 3-bulldozers 
