@@ -23,7 +23,7 @@ classes are all different kind of objects that someon would like to detect. In o
 12-workers , etc.
 
 ## Data collection 
-The data can be collected in many ways: The hardest and the best way is to collect them manully by taking photos of different construction equipments from a constrcution site, this approach might be a bit difficult for many people. The second approach is to download images from the web either manull (one-by-one) of by using some web-mining techniques which are so popular online. The third approach is to capture photos from construction videos avialable online or taken by you previously. There might be approaches that dont come into my mind, feel free to use the one suits you. 
+The data can be collected in many ways: The hardest and the best way is to collect them manully by taking photos of different construction equipments from a constrcution site, this approach might be a bit difficult for many people. The second approach is to download images from the web either manully (one-by-one) or by using some web-mining techniques which are so popular online. The third approach is to capture photos from construction videos avialable online or taken by you previously. There might be approaches that dont come into my mind, feel free to use the one suits you. 
 
 To ensure that the images collected are applicabe for model training, please pay attention to the following requirments: 
 1-each images should at least contain one object class in it. 
